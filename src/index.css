@@ -1,0 +1,35 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --background-color: hsl(171, 54%, 92%);
+  
+}
+
+
+[data-isDarkMode="dark"] {
+  --background-color: hsl(230, 17%, 14%);
+
+}
+
+#root{
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+  #root{
+    height: unset;
+  }
+}

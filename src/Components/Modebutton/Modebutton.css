@@ -1,0 +1,36 @@
+#btndiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Darkfinder{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+#Lightfinder{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+#Darkbtn{
+    border: none;
+    background-color: unset;
+    color: white;
+    font-weight: bolder;
+    
+
+}
+
+#Lightbtn{
+    border: none;
+    background-color: unset;
+    color: rgb(95, 92, 92);
+    font-weight: bolder;
+
+}
