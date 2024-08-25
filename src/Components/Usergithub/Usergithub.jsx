@@ -50,11 +50,11 @@ function Usergithub(){
       <div id={isDarkMode === 'dark' ? 'Darklinksdiv' : 'Lightlinksdiv'}>
         <div>
         <p><img src={location} /> {userData.location || 'Not Available'}</p>
-        <p><img src={website}/> <a href={userData.blog || '#'}>{userData.blog || 'No Blog'}</a></p>
+        <p><img src={website}/> <a href={userData.blog || '#'} target="_blank">{userData.blog || 'No Blog'} </a></p>
         </div>
 
         <div>
-            <p><img src={twitter} /> <a href={userData.html_url}>@{userData.twitter_username || 'Not Available'}</a></p>
+            <p><img src={twitter} /> <a href={userData.html_url} target="_blank">@{userData.twitter_username || 'Not Available'}</a></p>
             <p><img src={company} /> {userData.company || 'Not Available'}</p>
         </div>
       </div>
